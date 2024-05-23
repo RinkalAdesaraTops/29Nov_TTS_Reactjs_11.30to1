@@ -17,7 +17,7 @@ const StyleComponent = () => {
         color: palevioletred;
         `;
 
-        const Wrapper = styled.section`
+    const Wrapper = styled.section`
         padding: 4em;
         background: papayawhip;
       `;

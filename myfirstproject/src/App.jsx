@@ -11,6 +11,7 @@ import Home from './Home'
 import Contact from './Contact'
 import About from './About'
 import Lifecycle from './Lifecycle'
+import LifecycleFunc from './LifecycleFunc'
 
 function App() {
   const arr = [10,20,30,40]
@@ -29,6 +30,8 @@ function App() {
             <Route path='/contact' element={<Contact />}></Route>
             <Route path='/about' element={<About />}></Route>
             <Route path='/lifecycle' element={<Lifecycle />}></Route>
+            <Route path='/lifecyclefunc' element={<LifecycleFunc />}></Route>
+            
         </Routes>
 
         </BrowserRouter>

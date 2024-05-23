@@ -19,6 +19,19 @@ class Lifecycle extends Component {
     static getDerivedStateFromProps(props,state){
         console.log('getDerived state from props called...'+state.name);
     }
+    shouldComponentUpdate(){
+        return true;
+    }
+    getSnapshotBeforeUpdate(prevProps,prevState){
+        console.log("Prev name is "+prevState.name);
+        return prevState;
+    }
+    componentDidUpdate(){
+        console.log('component updated...');
+    }
+    componentWillUnmount(){
+        console.log('destroyed...');
+    }
   render() {
     const handleChange = ()=>{
         this.setState({

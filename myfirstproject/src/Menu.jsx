@@ -8,8 +8,8 @@ const Menu = () => {
         <Link to='/home'>Home</Link> || 
         <Link to='/about'>About</Link> || 
         <Link to='/contact'>Contact</Link>  ||   
-        <Link to='/lifecycle'> Lifecycle - Class</Link>     
-        
+        <Link to='/lifecycle'> Lifecycle - Class</Link> ||    
+        <Link to='/lifecyclefunc'> Lifecycle - Function</Link>         
         </h3>
     </div>
   )
